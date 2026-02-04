@@ -53,6 +53,8 @@ Flags are made using Wikipedia images
     <!-- content will be added here by JavaScript -->
 </div>
 
+
+
 <script>
     // 1. Make a connection to the HTML container defined in the HTML div
     var container = document.getElementById("grid_container"); // This container connects to the HTML div
@@ -61,9 +63,6 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
     ];
 
     // 3a. Consider how to update style count for size of container
@@ -101,38 +100,96 @@ Flags are made using Wikipedia images
 
 Here is what I did at those places
 
-- 🏫 Lots of Elementary Schools in Tucson, LA, Honolulu, and Glendale (CA)
-- 🏫 Middle and High School in Glendale (CA), Hoover High graduated '77
-- 🎓 Glendale CA Community College, UCLA Extension, LA Wilshire Computer Tech School '77 to '79
-- ⛪ England, London Missionary for Church of Jesus Christ of Latter-day Saints '79 to '81
-- 💼 Culver City, Glendale CA founder at Ashton-Tate, original PC's dBase 2 and 3 '82 to '87
-- 🎓 Eugene Oregon Undergraduate CompSci Degree at University of Oregon (Go Ducks!) '89 to '91
-- 💼 Eugene Oregon, founder and owner @ Microniche `88, Point Control CAD CAM developer '91 to '96
-- 🏢 San Diego CA Qualcomm, Satellite Comm and 1st Mobile OS (BREW) '96 to '19
-- 👨‍🏫 San Diego CA Teacher of Computer Science @ Del Norte High School San Diego '19 to present
+-Go to the beach (swimming, boogie boarding, tide pools, sunset pics)
+
+-Hike local trails or state parks (Yosemite, Big Sur, Griffith Park, etc.)
+
+-Visit redwood forests and see trees taller than buildings
+
+-Have a picnic with friends at a park
 
 ### Culture, Family, and Fun
 
 Everything for me, as for many others, revolves around family and faith.
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
+Hindu culture is ancient and diverse, centered around values like dharma (doing what’s right), karma (actions have consequences), ahimsa (non-violence), and balance in life. It includes many traditions, languages, and ways of practicing, but family, respect for elders, and community are common themes. Festivals such as Diwali, Holi, Navratri, and Raksha Bandhan celebrate light over darkness, joy, devotion, and family bonds. Practices like yoga, meditation, prayer, and vegetarian food connect mind, body, and spirit. Hindu stories, music, dance, and symbols teach lessons about courage, kindness, and self-understanding. For many Hindu teens, especially in places like California, the culture is a blend of tradition at home and modern life outside, creating a strong and unique identity.
 
-<comment>
-Gallery of Pics, scroll to the right for more ...
-</comment>
-<div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
-  <img src="{{site.baseurl}}/images/about/john_tamara.jpg" alt="Image 2">
-  <img src="{{site.baseurl}}/images/about/tamara_fam.jpg" alt="Image 3">
-  <img src="{{site.baseurl}}/images/about/surf.jpg" alt="Image 4">
-  <img src="{{site.baseurl}}/images/about/john_lora.jpg" alt="Image 5">
-  <img src="{{site.baseurl}}/images/about/lora_fam.jpg" alt="Image 6">
-  <img src="{{site.baseurl}}/images/about/lora_fam2.jpg" alt="Image 7">
-  <img src="{{site.baseurl}}/images/about/pj_party.jpg" alt="Image 8">
-  <img src="{{site.baseurl}}/images/about/trent_family.png" alt="Image 9">
-  <img src="{{site.baseurl}}/images/about/claire.jpg" alt="Image 10">
-  <img src="{{site.baseurl}}/images/about/grandkids.jpg" alt="Image 11">
-  <img src="{{site.baseurl}}/images/about/farm.jpg" alt="Image 12">
-</div>
+
+### Favorite desserts 
+
+<div id="grid_container2"></div>
+
+
+
+<script>
+    var outputElement = document.getElementById
+    ("grid_container2");
+
+// Clear the output
+outputElement.innerHTML = '';
+
+// Data array
+const favorites = [
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Classic_Italian_Tiramisu-3_%2829989504485%29.jpg/640px-Classic_Italian_Tiramisu-3_%2829989504485%29.jpg", description: "Tiramisu is my favorite cake."},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/French_macaroons.jpg/640px-French_macaroons.jpg", description: "Macarons are my faborite cookie."},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Croissants_au_beurre_%2818953292873%29.jpg/640px-Croissants_au_beurre_%2818953292873%29.jpg", description: "Croissants are my favorite type of pasteries."},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Chocolate_ice_cream_%282009-01-07%29.jpg/640px-Chocolate_ice_cream_%282009-01-07%29.jpg", description: "Chocolate is my favorite flavor of ice cream."}
+];
+
+
+// Create a div container2 with id
+const container2 = document.createElement('div');
+container2.id = 'grid_container';
+
+// Style the container2
+container2.style.border = '2px solid';
+container2.style.padding = '10px';
+
+// Grid specific styles
+container2.style.display = 'grid';
+container2.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+container2.style.gap = '10px';
+
+// Loop through data and create grid items
+for (const location of favorites) {
+  // Create grid item
+  const gridItem = document.createElement('div');
+  gridItem.style.textAlign = 'center';
+  
+  // Create a flag image
+  const img = document.createElement('img');
+  img.src = location.flag;
+  img.alt = location.description + ' Flag';
+  img.style.width = '100%';
+  img.style.height = '100px';
+  img.style.objectFit = 'contain';
+  
+  // Create a description
+  const description = document.createElement('p');
+  description.textContent = location.description;
+  description.style.margin = '5px 0';
+  description.style.fontWeight = 'bold';
+  
+  // Create a greeting
+  const greeting = document.createElement('p');
+  greeting.textContent = location.greeting;
+  greeting.style.margin = '5px 0';
+  greeting.style.fontStyle = 'italic';
+  greeting.style.opacity = '0.7';
+  
+  // Add all elements to grid item
+  gridItem.appendChild(img);
+  gridItem.appendChild(description);
+  gridItem.appendChild(greeting);
+  
+  // Add grid item to container2
+  container2.appendChild(gridItem);
+}
+
+// Add containter to output 
+outputElement.appendChild(container2);
+
+</script>
+
+
+

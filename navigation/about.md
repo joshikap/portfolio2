@@ -98,21 +98,48 @@ Flags are made using Wikipedia images
 
 ### Journey through Life
 
-Here is what I did at those places
+Here is what I like to do in California
 
--Go to the beach (swimming, boogie boarding, tide pools, sunset pics)
+-Go to the beach (swimming, tide pools, watching the sunset, building sand castles)
 
--Hike local trails or state parks (Yosemite, Big Sur, Griffith Park, etc.)
+-Hike local trails or state parks (My favorite is the Ho Chi Minh Trail in Torrey Pines)
 
 -Visit redwood forests and see trees taller than buildings
 
--Have a picnic with friends at a park
+-Have a picnic with friends at a beach
+
+-Hang out with my friends and family in downtown
+
+-Playing tennis and going to tournaments
+
+
+
+### Journey through Life
+
+<div class="journey-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
+  <div style="text-align: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Los_Angeles_%28California%2C_USA%29%2C_South_Olive_Street_--_2012_--_4847.jpg" alt="Image 1 Description" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p style="margin-top: 10px; font-weight: bold;">Image 1 Caption</p>
+  </div>
+  
+  <div style="text-align: center;">
+    <img src="path/to/your/image2.jpg" alt="Image 2 Description" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p style="margin-top: 10px; font-weight: bold;">Image 2 Caption</p>
+  </div>
+  
+  <div style="text-align: center;">
+    <img src="path/to/your/image3.jpg" alt="Image 3 Description" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p style="margin-top: 10px; font-weight: bold;">Image 3 Caption</p>
+  </div>
+</div>
+
 
 ### Culture, Family, and Fun
 
-Everything for me, as for many others, revolves around family and faith.
+- I have lived in San Diego since I was born
+- I live with my two sisters, and my mom and dad 
 
-Hindu culture is ancient and diverse, centered around values like dharma (doing what’s right), karma (actions have consequences), ahimsa (non-violence), and balance in life. It includes many traditions, languages, and ways of practicing, but family, respect for elders, and community are common themes. Festivals such as Diwali, Holi, Navratri, and Raksha Bandhan celebrate light over darkness, joy, devotion, and family bonds. Practices like yoga, meditation, prayer, and vegetarian food connect mind, body, and spirit. Hindu stories, music, dance, and symbols teach lessons about courage, kindness, and self-understanding. For many Hindu teens, especially in places like California, the culture is a blend of tradition at home and modern life outside, creating a strong and unique identity.
+Hindu culture is ancient and diverse, centered around values like dharma (doing what’s right), karma (actions have consequences),  and balance in life. It includes many traditions, languages, and ways of practicing, but family and community are common themes. Festivals such as Diwali, Holi, and Navratri, celebrate light over darkness, joy, and family bonds. Practices like yoga, meditation, prayer, and food connect mind, body, and spirit. Hindu stories, music, dance, and symbols teach lessons about courage, kindness, and self-understanding. For many Hindu teens, especially in places like California, the culture is a blend of tradition at home and modern life outside, creating a unique identity.
 
 
 ### Favorite desserts 

@@ -119,17 +119,17 @@ Here is what I like to do in California
 <div class="journey-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
   <div style="text-align: center;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Los_Angeles_%28California%2C_USA%29%2C_South_Olive_Street_--_2012_--_4847.jpg" alt="Image 1 Description" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
-    <p style="margin-top: 10px; font-weight: bold;">Image 1 Caption</p>
+    <p style="margin-top: 10px; font-weight: bold;"> </p>
   </div>
   
   <div style="text-align: center;">
-    <img src="path/to/your/image2.jpg" alt="Image 2 Description" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
-    <p style="margin-top: 10px; font-weight: bold;">Image 2 Caption</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Tennis_court_at_Grindleford_-_geograph.org.uk_-_571857.jpg" alt="Image 2 Description" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p style="margin-top: 10px; font-weight: bold;"> </p>
   </div>
   
   <div style="text-align: center;">
-    <img src="path/to/your/image3.jpg" alt="Image 3 Description" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
-    <p style="margin-top: 10px; font-weight: bold;">Image 3 Caption</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/20100524_Kardamos_beach_Imbros_G%C3%B6k%C3%A7eada_Turkey.jpg" alt="Image 3 Description" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p style="margin-top: 10px; font-weight: bold;"> </p>
   </div>
 </div>
 

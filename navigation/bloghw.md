@@ -1,21 +1,21 @@
 ---
 layout: blogs 
-title: Night at the Museum Blog
+title: Key Accomplishments Throughout This Trimester
 search_exclude: true
-permalink: /blogsn@tm/
+permalink: /blogska/
+---
+
+--- 
+
+## How I grew over this course
+
+At the beginning of this trimester in CSSE, I had very little knowledge about computer science and often felt unsure about what I was doing. I did not understand many of the tools or concepts we were learning. However, as the trimester went on, I made an effort to ask questions and collaborate with my classmates. Working with others helped me better understand the material, and I learned that asking for help is an important part of learning. Over time, I became more comfortable navigating different programs and completing assignments more independently. One of my biggest accomplishments this trimester is the growth in my confidence and skills. I am now much more prepared and comfortable working in computer science than I was at the beginning of the class.
+
 ---
 
 
-## Night at the Museum Experience 
+## Overall 
 
-## What I saw 
-At night of the museum, there were many different classes that showed their work throughout this school year. In the computer science class, people from CSSE, CSA, and CSP showed the differnt types of projects that they had worked on during this trimester. They talked about the different types of obstacles they went through, and how they overcame this. Outside of the classrom, I saw many things that were made from other electives like ceramics, art from the drawing and painting class, and work done by the photography students.
+This trimester, I learned a lot about JavaScript by consistently completing the homework assignments and practicing the concepts we covered in class. At first, the lessons were challenging, but doing the homework helped me better understand how the code works and how to fix my mistakes. I also learned how to navigate important tools like GitHub and VS Code, which made me more comfortable managing my projects and writing code efficiently. In addition, I became more confident using my own MacBook for schoolwork and troubleshooting small issues on my own. One of my favorite experiences was collaborating on a game project where I contributed as the artist. Working on the design side of the game taught me how to collaborate with my team, communicate ideas clearly, and play an important role in completing a group project.
 
-
-## Here is n@tm through my perspective:
-
-<div style="text-align: center;">
-    <img src="https://media.licdn.com/dms/image/v2/D5622AQGKpAg7W_xqsw/feedshare-shrink_2048_1536/B56ZxeiiU_GsAk-/0/1771112638048?e=2147483647&v=beta&t=eD2CITg_vqzzvZGqRu9YselJaiY-YYjLAzvnHC95QUY" alt="Image caption" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
-    <p style="margin-top: 10px; font-weight: bold;"> </p>
-  </div>
-</div>
+---

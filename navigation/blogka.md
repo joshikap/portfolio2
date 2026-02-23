@@ -21,37 +21,37 @@ permalink: /blogshw/
 ## Booleans Lesson
 
 
-## Link to booleans hw: https://github.com/joshikap/student/blob/main/_notebooks/2026-01-20-booleans-lessons.ipynb
+## [Link to booleans hw](https://github.com/joshikap/student/blob/main/_notebooks/2026-01-20-booleans-lessons.ipynb)
 
 ---
 
 ## Data Abstraction Lesson
 
-## Link to data abstraction hw: https://github.com/joshikap/student/blob/main/_notebooks/2026-01-09-data_abstraction.ipynb
+## [Link to data abstraction hw] (https://github.com/joshikap/student/blob/main/_notebooks/2026-01-09-data_abstraction.ipynb)
 
 ---
 
 ## Nested Conditionals Lesson 
 
-## Link to nested conditionals hw: https://github.com/joshikap/student/blob/main/_notebooks/2026-1-14-Nested-Conditionals%20(1).ipynb
+## [Link to nested conditionals hw] (https://github.com/joshikap/student/blob/main/_notebooks/2026-1-14-Nested-Conditionals%20(1).ipynb)
 
 ---
 
 ## Mathematical Expressions Lesson 
 
-## Link to mathematical expressions hw: https://github.com/joshikap/student/blob/main/_notebooks/2026-01-20-math-exp.ipynb
+## [Link to mathematical expressions hw] (https://github.com/joshikap/student/blob/main/_notebooks/2026-01-20-math-exp.ipynb)
 
 ---
 
 ## Iterations Lesson
 
-## Link to iterations hw: https://github.com/joshikap/student/blob/main/_notebooks/2025-10-08-iteration-homework.ipynb
+## [Link to iterations hw] (https://github.com/joshikap/student/blob/main/_notebooks/2025-10-08-iteration-homework.ipynb)
 
 ---
 
 ## JSON Lessson
 
-## Link to JSON hw: https://github.com/joshikap/student/blob/main/_notebooks/2026-01-16-json_lesson.ipynb
+## [Link to JSON hw] (https://github.com/joshikap/student/blob/main/_notebooks/2026-01-16-json_lesson.ipynb)
 
 
 ---

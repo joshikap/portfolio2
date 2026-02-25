@@ -91,3 +91,16 @@ permalink: /blogshw/
 - I learned how to manipulate strings using methods like finding length, changing case, and accessing specific characters by index.
 
 ---
+
+## Classes and Methods Lesson
+
+## [Link to Classes and Methods hw](https://github.com/joshikap/portfolio2/blob/main/_notebooks/2026-1-27-ClassesAndMethods-Lesson.ipynb)
+
+### What I learned:
+
+- Classes are a template for creating something. It defines what properties and behaviors the object should have.
+- For example the class car would define the color, the model, year released, etc.
+- Methods are an action that an object executes.
+
+---
+

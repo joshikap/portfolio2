@@ -41,10 +41,9 @@ def convert_single_notebook(notebook_path):
         print(f"Error: Notebook not found: {notebook_path}")
         return
     
-    # Determine output path
-    relative_path = notebook_path.relative_to("_notebooks")
-    output_stem = relative_path.with_suffix("").name
-    output_path = Path("_posts") / f"{output_stem}_IPYNB_2_.md"
+    # Determine output path and name
+    notebook_name = notebook_path.stem
+    output_path = Path("_posts") / f"{notebook_name}_IPYNB_2_.md"
     
     # Create output directory if needed
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -53,10 +52,12 @@ def convert_single_notebook(notebook_path):
     
     try:
         # Use jupyter nbconvert to convert notebook to markdown
+        # Use --output-dir and just the filename
         cmd = [
             sys.executable, "-m", "jupyter", "nbconvert",
             "--to", "markdown",
-            "--output", str(output_path),
+            "--output-dir", str(output_path.parent),
+            "--output", str(output_path.name),
             str(notebook_path)
         ]
         

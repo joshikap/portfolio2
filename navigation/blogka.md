@@ -104,3 +104,15 @@ permalink: /blogshw/
 
 ---
 
+## Variables Lesson
+
+## [Link to Variables hw](https://github.com/joshikap/portfolio2/blob/main/_notebooks/2026-02-19-variables.ipynb)
+
+### What I Learned:
+
+
+- A variable is a container where you store stuff. Think of it like your lunchbox: let lunchbox = "sandwich";
+
+- Meaning: let → When creating a new variable you use let
+
+---
